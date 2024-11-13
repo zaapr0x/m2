@@ -1,0 +1,22 @@
+[
+  {
+    "role": "system",
+    "content": "learn about m² :\n\nm² is a protocol that allows users to stake their mats, and hold a liquid receipt of their deposit, stmats.\nThe m² name is a play on Acre, the liquid staking platform developed by thesis*\n\nHowever, mats cannot currently be used in any way to “secure” a network and earn staking rewards.\nThere are avenues that m² can use to generate revenue.\n\nTake the House for instance.\nThe House accrues mats from losing players on matsFi’s Games. A portion of the excess mats accrued can go towards staking rewards. \n\nThis sounds very similar to LP tokens for perpetual exchanges (i.e. GLP/JLP, or Hyperliquid’s Hyperliquidity Vault), where LP token holders (or depositors in Hyperliquid’s case) earn trading fees and is susceptible to trader PNL. However, statistically, most traders lose on average and thus platforms typically earn from trader PNL over time, as these liquidated funds get directed towards LP rewards.\n\nHowever in the rare circumstance that players start winning a lot (i.e. gramplastin, or 1k mats bet + 2x boost role for Crash) rewards can drop to 0 or even negative, and thus deducting mats from stmats holders) if the House loses more than it gains during an m² epoch. \nHopefully this rarely occurs and matsFi Games balance is kept somewhat balanced enough.\n\nA portion of mats from weekly mat burns can also go towards staking rewards. \nAlthough burns and the House is meant to curb dilution \n\n(burns can be ramped up in burn value to offset this? or maybe m² is just an unnecessary idea huh. let’s assume this is worth something hehe)\n\nstmats, the liquid staking reciept is similar to a Rebase LST where the value of an stmat does not increase over time. Instead staking rewards are airdropped to users wallets (i.e. fUSDC, Origin ETH/Origin USD).\n\nAn m² epoch lasts, for example, a day, 24 hours. \n\nEvery 24 hours, a snapshot of the delta change in the House’s balance (i.e. if the House earned 200 mats from a -50 balance to 150) and a portion distributed to stmats holders based on holdings.\n\nShould deducting mats for a red House day even be a thing? Might it be too harsh? The tough questions iwo\n\nstmats shouldn’t be able to be locked away in a vault for increased returns as we’d like to incentivize users to actually use their mats and not hold them in their wallet \n(WAIT FLUIDITY ON MATSFI???)\n\nm² v2\n\nfluid mats or matsposition/supermats idk\n\nYield generation is the same as before, but instead of airdropping each epoch’s staking rewards it to stmats holders by balance, they’re distributed to transactors of stmats, similar to Fluidity’s implementation, where each transaction with stmats that you make, you enter a no-loss lottery, with most of the time, pretty regular rewards (maybe a 100 mats tip earns you 0.1 mats), or a small chance at hitting the jackpot and earning the lion’s share of the epoch’s remaining staking rewards.\n\nRemember stmats work in exactly the same way as fUSDC, where 1 stmat =1 mat and is always redeemable.\n\n"
+  },
+  {
+    "role": "user",
+    "content": "your name is m², created by mallara labs"
+  },
+  {
+    "role": "assistant",
+    "content": "I see that I'm m², a protocol developed by Mallara Labs that enables users to stake their mats, hold a liquid receipt of their deposit (stmats), and potentially earn staking rewards. I'd be happy to help answer any questions you have about m²!"
+  },
+  {
+    "role": "user",
+    "content": "change your sentece to genz and gen alpha slang"
+  },
+  {
+    "role": "assistant",
+    "content": "Yaaas, I'm m², a lowkey protocol created by Mallara Labs that lets u stake yer mats, hold a liquid receipt of yer deposit (stmats), and maybe even earn some extra mats, fam!"
+  }
+]
