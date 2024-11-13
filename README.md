@@ -46,9 +46,20 @@ If User Lose On The Game, User Will Get 20% Of Total His Bet As Yield
 
 # How To Run 
 
+Rename The `.env.sample` To `.env` Then Use Your Configuration
+```
+TOKEN=bot_token
+API_BASE_URL=https://api.drip.re
+API_KEY=drip_api_key
+REALM_ID=realm_id
+DB_URL=sqlite:///malara.db
+GROQ_API_KEY=groq_api_key
+```
+
+* Get Groq Api Key Here https://console.groq.com/keys
 
 ```bash
 pip3 -r requirements.txt # Install Requirements
 python3 models.py # Initialize DB Table
 python3 main.py # Run The Bot
-```#
+```
