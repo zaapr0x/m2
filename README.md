@@ -33,30 +33,24 @@ If User Lose On The Game, User Will Get 20% Of Total His Bet As Yield
 
 # Available Command
 
-* `/dashboard` Showing Details About User Like Balance,Unclaimed Yield, Tip Etc
-
+* `/dashboard` Showing Details About User Like Balance,Unclaimed Yield
+* `/stats` Showing Stats About User Tip Count,Tip Spend,Bet Count,Bet Spend etc
 * `/txs-scan` You Can Track Detail About Txs By Using Txid. using this command you can see the detail about transaction rewards.
-
-* `/yield-leaderboard` Show The Most Earned Yield By Users
-
-* `/tip-leaderboard` Show The Most Tipper On Leaderboard
-
-* `/distribute-yield` Distribute Yield To All Users based on Yield Pool Balance
+* `/menu` Show Menu Admin Dashboard ( Admin Or Specific Role Only)
 
 
 # How To Run 
 
 Rename The `.env.sample` To `.env` Then Use Your Configuration
 ```
-TOKEN=bot_token
-API_BASE_URL=https://api.drip.re
-API_KEY=drip_api_key
-REALM_ID=realm_id
-DB_URL=sqlite:///malara.db
-GROQ_API_KEY=groq_api_key
-```
+TOKEN=DISCORD_TOKEN
+DB_NAME=m2.db
 
-* Get Groq Api Key Here https://console.groq.com/keys
+DRIP_API_KEY=
+BASE_URL=https://api.drip.re
+REALM_ID=
+REALM_POINT_ID=
+```
 
 ```bash
 pip3 -r requirements.txt # Install Requirements
