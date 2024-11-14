@@ -1,3 +1,5 @@
+# Moved To [V2](https://github.com/zaapr0x/m2/tree/m2-v2)
+
 # m² Bots
 m² is the incentive layer for matsFi. Inspired by Fluidity, the Blockchain Incentive Layer, m² rewards users for every transaction performed with mats, and incentivizes users for using their mats within the matsFi economy, instead of hoarding them within their wallet.
 Fluidity’s slogan - “Money designed to be moved.”
