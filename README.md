@@ -36,7 +36,7 @@ If User Lose On The Game, User Will Get 20% Of Total His Bet As Yield
 * `/dashboard` Showing Details About User Like Balance,Unclaimed Yield
 * `/stats` Showing Stats About User Tip Count,Tip Spend,Bet Count,Bet Spend etc
 * `/txs-scan` You Can Track Detail About Txs By Using Txid. using this command you can see the detail about transaction rewards.
-* `/menu` Show Menu Admin Dashboard ( Admin Or Specific Role Only)
+* `/menu` Show Admin Dashboard ( Admin Or Specific Role Only)
 
 
 # How To Run 
